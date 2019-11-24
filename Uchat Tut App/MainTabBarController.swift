@@ -14,10 +14,10 @@ class MainTabBarController: UITabBarController {
     
     
     // MARK: ViewControllers init
-    private let chatVC = ChatViewController()
+    private let messengerVC = MessengerViewController()
     private let taskManagerVC = TaskManagerViewController()
     private let calendarVC = CalendarViewController()
-    private let settingsVC = SettingsViewController()
+    private let profileVC = ProfileViewController()
     private let libraryVC = LibraryViewController()
     
 
@@ -28,11 +28,11 @@ class MainTabBarController: UITabBarController {
         
 
         viewControllers = [
-            generateViewController(rootViewController: chatVC, image: #imageLiteral(resourceName: "chatTabBarIcon"), title: "Ученики"),
+            generateViewController(rootViewController: messengerVC, image: #imageLiteral(resourceName: "chatTabBarIcon"), title: "Ученики"),
             generateViewController(rootViewController: taskManagerVC, image: #imageLiteral(resourceName: "TaskManagerTabBarIcon"), title: "Список дел"),
             generateViewController(rootViewController: calendarVC, image: #imageLiteral(resourceName: "calendarTabBarIcon"), title: "Календарь"),
             generateViewController(rootViewController: libraryVC, image: #imageLiteral(resourceName: "libraryTabBarIcon"), title: "Библиотека"),
-            generateViewController(rootViewController: settingsVC, image: #imageLiteral(resourceName: "settingsTabBarIcon"), title: "Профиль")
+            generateViewController(rootViewController: profileVC, image: #imageLiteral(resourceName: "settingsTabBarIcon"), title: "Профиль")
         ]
         
     }
