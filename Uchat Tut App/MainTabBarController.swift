@@ -24,10 +24,9 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tabBarSetup()
         
-        tabBar.tintColor = .red
-        view.backgroundColor = .white
-        
+
         viewControllers = [
             generateViewController(rootViewController: chatVC, image: #imageLiteral(resourceName: "chatTabBarIcon"), title: "Ученики"),
             generateViewController(rootViewController: taskManagerVC, image: #imageLiteral(resourceName: "TaskManagerTabBarIcon"), title: "Список дел"),
@@ -48,6 +47,15 @@ class MainTabBarController: UITabBarController {
         rootViewController.navigationItem.title = title
         navigationVC.navigationBar.prefersLargeTitles = true
         return navigationVC
+    }
+    
+    // MARK: tabBarSetup
+    
+    private func tabBarSetup() {
+       
+        tabBar.tintColor = UIColor(red: 0.775, green: 0, blue: 0, alpha: 1)
+        tabBar.barTintColor = .white
+        view.backgroundColor = .white
     }
     
 
