@@ -56,6 +56,9 @@ class MainTabBarController: UITabBarController {
         tabBar.tintColor = UIColor(red: 0.775, green: 0, blue: 0, alpha: 1)
         tabBar.barTintColor = .white
         view.backgroundColor = .white
+       // tabBar.heightAnchor.constraint(equalToConstant: 88).isActive = true  ???
+        
+        
     }
     
 
