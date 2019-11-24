@@ -37,7 +37,7 @@ class MainTabBarController: UITabBarController {
         
     }
 
-    // MARK: add a new ViewController to the TabBarController
+    // MARK: adding a new ViewController to the TabBarController
     
     private func generateViewController(rootViewController: UIViewController, image: UIImage, title: String) -> UIViewController {
        
