@@ -13,19 +13,32 @@ class MainTabBarController: UITabBarController {
     
     
     
+    // MARK: ViewControllers init
+    private let chatVC = ChatViewController()
+    private let taskManagerVC = TaskManagerViewController()
+    private let calendarVC = CalendarViewController()
+    private let settingsVC = SettingsViewController()
+    private let libraryVC = LibraryViewController()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
         tabBar.tintColor = .red
-        view.backgroundColor = .green
+        view.backgroundColor = .white
         
-        viewControllers = []
+        viewControllers = [
+            generateViewController(rootViewController: chatVC, image: #imageLiteral(resourceName: "chatTabBarIcon"), title: "Ученики"),
+            generateViewController(rootViewController: taskManagerVC, image: #imageLiteral(resourceName: "TaskManagerTabBarIcon"), title: "Список дел"),
+            generateViewController(rootViewController: calendarVC, image: #imageLiteral(resourceName: "calendarTabBarIcon"), title: "Календарь"),
+            generateViewController(rootViewController: libraryVC, image: #imageLiteral(resourceName: "libraryTabBarIcon"), title: "Библиотека"),
+            generateViewController(rootViewController: settingsVC, image: #imageLiteral(resourceName: "settingsTabBarIcon"), title: "Профиль")
+        ]
         
     }
 
-    // MARK: create new ViewController
+    // MARK: add a new ViewController to the TabBarController
     
     private func generateViewController(rootViewController: UIViewController, image: UIImage, title: String) -> UIViewController {
        
