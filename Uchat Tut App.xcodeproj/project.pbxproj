@@ -17,6 +17,8 @@
 		3A7B5544238B23B200E18CE2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B5543238B23B200E18CE2 /* CalendarViewController.swift */; };
 		3A7B5546238B23D300E18CE2 /* TaskManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B5545238B23D300E18CE2 /* TaskManagerViewController.swift */; };
 		3A7B5548238B23E300E18CE2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B5547238B23E300E18CE2 /* ProfileViewController.swift */; };
+		3AD122F0238B4A8D00492A33 /* CustomMessengerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD122EF238B4A8D00492A33 /* CustomMessengerCell.xib */; };
+		3AD122F2238B4AD500492A33 /* CustomMessengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD122F1238B4AD500492A33 /* CustomMessengerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		3A7B5543238B23B200E18CE2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		3A7B5545238B23D300E18CE2 /* TaskManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerViewController.swift; sourceTree = "<group>"; };
 		3A7B5547238B23E300E18CE2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3AD122EF238B4A8D00492A33 /* CustomMessengerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessengerCell.xib; sourceTree = "<group>"; };
+		3AD122F1238B4AD500492A33 /* CustomMessengerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessengerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		3A7B5549238B333E00E18CE2 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				3AD122F3238B4ADC00492A33 /* CustomMessengerCell */,
 				3A7B553F238B232900E18CE2 /* MessengerViewController.swift */,
 			);
 			path = Messenger;
@@ -117,6 +122,15 @@
 				3A7B5541238B239500E18CE2 /* LibraryViewController.swift */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		3AD122F3238B4ADC00492A33 /* CustomMessengerCell */ = {
+			isa = PBXGroup;
+			children = (
+				3AD122EF238B4A8D00492A33 /* CustomMessengerCell.xib */,
+				3AD122F1238B4AD500492A33 /* CustomMessengerCell.swift */,
+			);
+			path = CustomMessengerCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +193,7 @@
 			files = (
 				3A7B5538238B1BC100E18CE2 /* LaunchScreen.storyboard in Resources */,
 				3A7B5535238B1BC100E18CE2 /* Assets.xcassets in Resources */,
+				3AD122F0238B4A8D00492A33 /* CustomMessengerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7B5544238B23B200E18CE2 /* CalendarViewController.swift in Sources */,
+				3AD122F2238B4AD500492A33 /* CustomMessengerCell.swift in Sources */,
 				3A7B5530238B1BBD00E18CE2 /* MainTabBarController.swift in Sources */,
 				3A7B552C238B1BBD00E18CE2 /* AppDelegate.swift in Sources */,
 				3A7B5540238B232900E18CE2 /* MessengerViewController.swift in Sources */,
