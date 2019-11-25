@@ -19,6 +19,7 @@
 		3A7B5548238B23E300E18CE2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B5547238B23E300E18CE2 /* ProfileViewController.swift */; };
 		3AD122F0238B4A8D00492A33 /* CustomMessengerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD122EF238B4A8D00492A33 /* CustomMessengerCell.xib */; };
 		3AD122F2238B4AD500492A33 /* CustomMessengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD122F1238B4AD500492A33 /* CustomMessengerCell.swift */; };
+		3AD122F5238B569200492A33 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD122F4238B569200492A33 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3A7B5547238B23E300E18CE2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3AD122EF238B4A8D00492A33 /* CustomMessengerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessengerCell.xib; sourceTree = "<group>"; };
 		3AD122F1238B4AD500492A33 /* CustomMessengerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessengerCell.swift; sourceTree = "<group>"; };
+		3AD122F4238B569200492A33 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				3A7B552B238B1BBD00E18CE2 /* AppDelegate.swift */,
 				3A7B552D238B1BBD00E18CE2 /* SceneDelegate.swift */,
 				3A7B552F238B1BBD00E18CE2 /* MainTabBarController.swift */,
+				3AD122F4238B569200492A33 /* SampleData.swift */,
 				3A7B5549238B333E00E18CE2 /* Messenger */,
 				3A7B554A238B336000E18CE2 /* TaskManager */,
 				3A7B554B238B337000E18CE2 /* Calendar */,
@@ -207,6 +210,7 @@
 				3A7B5544238B23B200E18CE2 /* CalendarViewController.swift in Sources */,
 				3AD122F2238B4AD500492A33 /* CustomMessengerCell.swift in Sources */,
 				3A7B5530238B1BBD00E18CE2 /* MainTabBarController.swift in Sources */,
+				3AD122F5238B569200492A33 /* SampleData.swift in Sources */,
 				3A7B552C238B1BBD00E18CE2 /* AppDelegate.swift in Sources */,
 				3A7B5540238B232900E18CE2 /* MessengerViewController.swift in Sources */,
 				3A7B552E238B1BBD00E18CE2 /* SceneDelegate.swift in Sources */,
