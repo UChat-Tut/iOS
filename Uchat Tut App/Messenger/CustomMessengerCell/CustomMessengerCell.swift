@@ -19,6 +19,7 @@ class CustomMessengerCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
     }
     
     override func prepareForReuse() {
@@ -26,7 +27,6 @@ class CustomMessengerCell: UITableViewCell {
         
         friendIcon.image = nil
     }
-    
     
     
 }

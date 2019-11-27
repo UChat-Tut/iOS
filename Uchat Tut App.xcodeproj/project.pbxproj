@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A49C3D1238C003700A503B7 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49C3D0238C003700A503B7 /* GradientView.swift */; };
 		3A7B552C238B1BBD00E18CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B552B238B1BBD00E18CE2 /* AppDelegate.swift */; };
 		3A7B552E238B1BBD00E18CE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B552D238B1BBD00E18CE2 /* SceneDelegate.swift */; };
 		3A7B5530238B1BBD00E18CE2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B552F238B1BBD00E18CE2 /* MainTabBarController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A49C3D0238C003700A503B7 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		3A7B5528238B1BBC00E18CE2 /* Uchat Tut App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uchat Tut App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7B552B238B1BBD00E18CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A7B552D238B1BBD00E18CE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A49C3CD238BED4000A503B7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3A49C3D0238C003700A503B7 /* GradientView.swift */,
+				3A7B5534238B1BC100E18CE2 /* Assets.xcassets */,
+				3A7B552B238B1BBD00E18CE2 /* AppDelegate.swift */,
+				3A7B552D238B1BBD00E18CE2 /* SceneDelegate.swift */,
+				3A49C3CF238BFFF700A503B7 /* LaunchScreen */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		3A49C3CE238BEDEA00A503B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AD122F4238B569200492A33 /* SampleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A49C3CF238BFFF700A503B7 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B5536238B1BC100E18CE2 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
 		3A7B551F238B1BBC00E18CE2 = {
 			isa = PBXGroup;
 			children = (
@@ -70,17 +100,13 @@
 		3A7B552A238B1BBC00E18CE2 /* Uchat Tut App */ = {
 			isa = PBXGroup;
 			children = (
-				3A7B552B238B1BBD00E18CE2 /* AppDelegate.swift */,
-				3A7B552D238B1BBD00E18CE2 /* SceneDelegate.swift */,
 				3A7B552F238B1BBD00E18CE2 /* MainTabBarController.swift */,
-				3AD122F4238B569200492A33 /* SampleData.swift */,
 				3A7B5549238B333E00E18CE2 /* Messenger */,
 				3A7B554A238B336000E18CE2 /* TaskManager */,
 				3A7B554B238B337000E18CE2 /* Calendar */,
 				3A7B554C238B337A00E18CE2 /* Profile   */,
 				3A7B554D238B339A00E18CE2 /* Library */,
-				3A7B5534238B1BC100E18CE2 /* Assets.xcassets */,
-				3A7B5536238B1BC100E18CE2 /* LaunchScreen.storyboard */,
+				3A49C3CD238BED4000A503B7 /* Supporting files */,
 				3A7B5539238B1BC100E18CE2 /* Info.plist */,
 			);
 			path = "Uchat Tut App";
@@ -89,6 +115,7 @@
 		3A7B5549238B333E00E18CE2 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				3A49C3CE238BEDEA00A503B7 /* Model */,
 				3AD122F3238B4ADC00492A33 /* CustomMessengerCell */,
 				3A7B553F238B232900E18CE2 /* MessengerViewController.swift */,
 			);
@@ -209,6 +236,7 @@
 			files = (
 				3A7B5544238B23B200E18CE2 /* CalendarViewController.swift in Sources */,
 				3AD122F2238B4AD500492A33 /* CustomMessengerCell.swift in Sources */,
+				3A49C3D1238C003700A503B7 /* GradientView.swift in Sources */,
 				3A7B5530238B1BBD00E18CE2 /* MainTabBarController.swift in Sources */,
 				3AD122F5238B569200492A33 /* SampleData.swift in Sources */,
 				3A7B552C238B1BBD00E18CE2 /* AppDelegate.swift in Sources */,
