@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3A49C3D0238C003700A503B7 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		3A7B5528238B1BBC00E18CE2 /* Uchat Tut App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uchat Tut App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7B5528238B1BBC00E18CE2 /* Учат Тут.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Учат Тут.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7B552B238B1BBD00E18CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A7B552D238B1BBD00E18CE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3A7B552F238B1BBD00E18CE2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		3A7B5529238B1BBC00E18CE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A7B5528238B1BBC00E18CE2 /* Uchat Tut App.app */,
+				3A7B5528238B1BBC00E18CE2 /* Учат Тут.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 			);
 			name = "Uchat Tut App";
 			productName = "Uchat Tut App";
-			productReference = 3A7B5528238B1BBC00E18CE2 /* Uchat Tut App.app */;
+			productReference = 3A7B5528238B1BBC00E18CE2 /* Учат Тут.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -388,7 +388,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Uchat-Tut.Uchat-Tut-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Учат Тут";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -406,7 +406,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Uchat-Tut.Uchat-Tut-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Учат Тут";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
